@@ -11,5 +11,8 @@ rm -rf dir
 df -h  
 
 ##进程
-ps aux
-查看CPU 内存使用情况 top  
+ps aux  
+查看CPU和内存使用情况 top  
+
+##网络
+ifconfig  

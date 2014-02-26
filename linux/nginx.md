@@ -5,5 +5,5 @@ sudo apt-get install nginx
 /etc/nginx/
 
 ##启动和停止
-sudo /etc/init.d/nginx start
+sudo /etc/init.d/nginx start  
 sudo /etc/init.d/nginx stop
