@@ -1,10 +1,10 @@
 #Ubuntu
 
 ##apt
-¸ü¸ÄÈí¼şÔ´ /etc/apt/sources.list  
+æ›´æ”¹è½¯ä»¶æº /etc/apt/sources.list  
 
-²éÑ¯  apt-cache search xxx  
-°²×°  sudo apt-get install xxx  
+æŸ¥è¯¢  apt-cache search xxx  
+å®‰è£…  sudo apt-get install xxx  
 
-##Ó²¼şĞÅÏ¢
+##ç¡¬ä»¶ä¿¡æ¯
 CPU   cat /proc/cpuinfo  
