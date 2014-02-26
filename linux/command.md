@@ -9,3 +9,7 @@ rm -rf dir
 
 ##磁盘
 df -h  
+
+##进程
+ps aux
+查看CPU 内存使用情况 top  
