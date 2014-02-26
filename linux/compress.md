@@ -8,3 +8,6 @@
 压缩 tar cvfj xxx.tar.bz2 xxx  
 解压 tar xvfj xxx.tar.bz2  
 
+##zip  
+解压 unzip xxx.zip  
+
