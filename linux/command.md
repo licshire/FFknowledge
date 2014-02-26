@@ -7,3 +7,5 @@ rm -rf dir
 ##重启、关机  
 重启 reboot  
 
+##磁盘
+df -h  
