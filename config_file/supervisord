@@ -33,7 +33,7 @@ DESC=supervisor
 
 test -x $DAEMON || exit 0
 
-LOGDIR=/tmp
+LOGDIR=/home/wangjian2/wwwroot/logs/
 PIDFILE=/var/run/$NAME.pid
 DODTIME=5                   # Time to wait for the server to die, in seconds
                             # If this value is set too low you might not

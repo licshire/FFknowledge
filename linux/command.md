@@ -12,6 +12,8 @@ df -h
 
 ##进程
 ps aux  
+ps aux|grep xxx  
+
 查看CPU和内存使用情况 top  
 
 ##网络
