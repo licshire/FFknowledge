@@ -19,6 +19,12 @@ sudo apt-get install openssh-server
 启动 sudo /etc/init.d/ssh start  
 停止 sudo /etc/init.d/ssh stop  
 
-
 ##硬件信息
 CPU   cat /proc/cpuinfo  
+
+##防火墙ufw
+开启SSH端口 sudo ufw allow ssh  
+开启80端口 sudo ufw allow http  
+默认外部不能访问所有端口 sudo ufw default deny  
+开启防火墙 sudo ufw enable  
+查看防火墙状态 sudo ufw status  
