@@ -1,0 +1,21 @@
+#MySQL
+
+##安装
+sudo apt-get install mysql-server  
+
+查看版本  mysqladmin -u root -p version  
+
+
+登陆到mysql mysql -u root -p  
+查看所有数据库 show databases;
+创建数据库 create database wordpress;
+
+###查看字符集
+show variables like 'collation_%';  
+show variables like 'character_set_%';  
+
+配置文件位置 /etc/mysql/my.cnf
+[client]  
+default-character-set=utf8  
+[mysqld]  
+character-set-server=utf8  

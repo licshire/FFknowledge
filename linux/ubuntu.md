@@ -3,8 +3,10 @@
 ##apt
 更改软件源 /etc/apt/sources.list  
 
+更新源列表 sudo apt-get update  
 查询  apt-cache search xxx  
 安装  sudo apt-get install xxx  
+升级软件 sudo apt-get upgrade  
 
 git  
 sudo apt-get install git  
