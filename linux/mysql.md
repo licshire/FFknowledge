@@ -8,7 +8,8 @@ sudo apt-get install mysql-server
 
 登陆到mysql mysql -u root -p  
 查看所有数据库 show databases;
-创建数据库 create database wordpress;
+创建数据库 create database wordpress;  
+删除数据库 drop database wordpress;
 
 ###查看字符集
 show variables like 'collation_%';  
