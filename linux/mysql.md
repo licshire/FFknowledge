@@ -19,3 +19,7 @@ show variables like 'character_set_%';
 default-character-set=utf8  
 [mysqld]  
 character-set-server=utf8  
+
+
+启动 sudo service mysql start  
+停止 sudo service mysql stop  

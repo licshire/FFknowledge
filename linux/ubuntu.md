@@ -30,3 +30,9 @@ CPU   cat /proc/cpuinfo
 默认外部不能访问所有端口 sudo ufw default deny  
 开启防火墙 sudo ufw enable  
 查看防火墙状态 sudo ufw status  
+
+##ulimit -a
+* 在文件/etc/security/limits.conf中增加  
+  * hard nofile 40960
+  * soft nofile 40960
+* 在文件/etc/profile加上一行 ulimit -SHn 40960  
