@@ -24,3 +24,8 @@ character-set-server=utf8
 
 启动 sudo service mysql start  
 停止 sudo service mysql stop  
+
+
+##备份和恢复
+mysqldump -u root -p xxx > xxx_14.3.2.sql
+mysql -u root -p xxx < xxx.sql
